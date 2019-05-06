@@ -1,8 +1,8 @@
 <template>
   <div class="big__header">
-    <h1>{{ message }}</h1>
+    <h1>{{message}}</h1>
     <br />
-    <router-link class="button" to="/Page2">Go to bonjour</router-link>
+    <router-link class="button" to="/">back to home</router-link>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
     data() {
     return {
-      message: '2'
+      message: '3'
     };
   }
 };
