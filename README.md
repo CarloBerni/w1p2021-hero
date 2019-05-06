@@ -4,8 +4,8 @@ URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Carlo & BERNI
+- Lucas & CUNAULT
 
 ## Prologue
 
