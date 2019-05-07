@@ -2,7 +2,7 @@
   <div class="big__header">
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" to="/page">Go to Page</router-link>
+    <router-link class="button" to="/characters">Go to characters</router-link>
   </div>
 </template>
 

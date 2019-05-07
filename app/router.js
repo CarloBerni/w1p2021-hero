@@ -1,9 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import Home from './components/Home.vue';
-import Page from './components/Page.vue';
-import Page2 from './components/Page2.vue';
+import home from './components/Home.vue';
+import page from './components/Page.vue';
+import page2 from './components/Page2.vue';
+import characters from './components/Characters.vue';
 
 Vue.use(Router);
 
@@ -14,17 +15,22 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      component: Home,
+      component: home,
     },
     {
       path: '/page',
       name: 'page',
-      component: Page,
+      component: page,
     },
     {
       path: '/page2',
       name: 'page2',
-      component: Page2,
+      component: page2,
+    },
+    {
+      path: '/characters',
+      name: 'characters',
+      component: characters,
     },
     {
       path: '*',
