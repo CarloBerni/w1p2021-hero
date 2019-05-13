@@ -1,11 +1,12 @@
 <template>
   <div class="big__header">
-    <h1>Choix du personnage</h1>
+    <h1 style="margin-bottom: 700px;">Choix du personnage</h1>
     <br />
-    <h1> {{message}} </h1>
-    
+
+    <div>
     <router-link class="button" to="/page">Go to Page</router-link>
-    <router-link class="button" to="/page2"></router-link>
+    <router-link class="button" to="/page2">bachelor web</router-link>
+    </div>
   </div>
 </template>
 

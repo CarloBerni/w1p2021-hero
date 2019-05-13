@@ -1,8 +1,8 @@
 @import 'reset';
 @import 'font';
 
-$hetic-green: #0de595;
-$hetic-blue: #1959d1;
+$button-color: #000000;
+$font-color: #FFFFFF;
 
 body,
 button,
@@ -13,26 +13,28 @@ textarea {
 }
 
 .big__header {
-  background-color: $hetic-green;
+  background-image: url("../img/background__home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  color: black;
+  color: $font-color;
+  h1 {
+    font-size: 30px;
+  }
 }
 
 .button {
-  color: $hetic-green;
+  background: url("../img/button.png");
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  color: $font-color;
   text-decoration: none;
-  background: white;
-  padding: 5px;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  &:hover {
-    background: black;
-    color: $hetic-blue;
-  }
+  font-size: 24px;
 }
+

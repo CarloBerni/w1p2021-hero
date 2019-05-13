@@ -1,8 +1,12 @@
 <template>
   <div class="big__header">
-    <h1>{{ message }}</h1>
+    <h1 style="margin-bottom: 700px;">{{message}}</h1>
     <br />
-    <router-link class="button" to="/characters">Votre l'esclave</router-link>
+
+    <div>
+    <router-link class="button" to="/characters">Votre esclave</router-link>
+    <router-link class="button" to="/characters">Votre esclave</router-link>
+    </div>
   </div>
 </template>
 
@@ -10,7 +14,7 @@
 export default {
   data() {
     return {
-      message: 'page 1'
+      message: 'Bonjour'
     };
   }
 };
