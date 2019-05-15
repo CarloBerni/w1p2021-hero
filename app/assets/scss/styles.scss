@@ -1,40 +1,36 @@
 @import 'reset';
-@import 'font';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
-$button-color: #000000;
-$font-color: #FFFFFF;
+$hetic-green: #0de595;
 
 body,
 button,
 input,
 select,
 textarea {
-  font-family: 'neula';
+  font-family: 'Roboto';
 }
 
-.homepage {
-  background-image: url("../img/background__home.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.big-header {
+  background-color: $hetic-green;
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  color: $font-color;
-  h1 {
-    font-size: 30px;
-  }
+
+  color: white;
 }
 
 .button {
-  background: url("../img/button.png");
-  background-position: center;
-  background-size: cover;
-  padding: 50px;
-  color: $font-color;
+  color: $hetic-green;
   text-decoration: none;
-  font-size: 24px;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
 }
-

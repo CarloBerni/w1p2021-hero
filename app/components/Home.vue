@@ -1,14 +1,26 @@
 <template>
-  <div class="homepage">
-    <div>
-      <router-link class="button" to="/characters">Votre esclave</router-link>
-      <router-link class="button" to="/characters">Votre esclave</router-link>
-    </div>
+  <div class="big-header">
+    <h1>{{ message }}</h1>
+    <br />
+    <router-link class="button" to="/page">Go to Page</router-link>
+    <br />
+    <button class="button" @click="handleClick">Click me up</button>
   </div>
 </template>
 
 <script>
+import countService from '../services/countService';
+
 export default {
-  
+  data() {
+    return {
+      message: 'Hello Hetic'
+    };
+  },
+  methods: {
+    handleClick() {
+      countService.increment();
+    }
+  }
 };
 </script>

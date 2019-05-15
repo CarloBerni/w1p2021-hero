@@ -1,17 +1,19 @@
 <template>
-  <div class="big__header">
-    <h1>{{ message }}</h1>
+  <div class="big-header">
+    <h1>Previous clicks {{ count }}</h1>
     <br />
-    <router-link class="button" to="/Page2">Go to bonjour</router-link>
+    <router-link class="button" to="/">Go to Home</router-link>
   </div>
 </template>
 
 <script>
+import countService from '../services/countService';
+
 export default {
-    data() {
+  data() {
     return {
-      message: '2'
-    };
+      count: countService.value()
+    }
   }
 };
 </script>
