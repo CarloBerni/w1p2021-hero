@@ -1,26 +1,32 @@
 <template>
-  <div class="big-header">
-    <h1>{{ message }}</h1>
-    <br />
+  <div class="home">
+    <p>{{data[index].name}}</p>
+    <div class="coucou">
+      <p>{{data[index].text}}</p>
+    </div>
+    <br>
     <router-link class="button" to="/page">Go to Page</router-link>
-    <br />
-    <button class="button" @click="handleClick">Click me up</button>
+    <br>
   </div>
 </template>
 
+
+
 <script>
-import countService from '../services/countService';
+import data from "../data.json";
 
 export default {
+  name: "home",
+
   data() {
     return {
-      message: 'Hello Hetic'
+      data: [],
+      index: 0
     };
   },
-  methods: {
-    handleClick() {
-      countService.increment();
-    }
+  created() {
+    this.data = data;
   }
 };
 </script>
+ 

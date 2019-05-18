@@ -1,19 +1,27 @@
 <template>
-  <div class="big-header">
-    <h1>Previous clicks {{ count }}</h1>
-    <br />
+  <div class="home">
+    <div class="coucou">
+      <p>{{data[index].text}}</p>
+    </div>
+    <br>
     <router-link class="button" to="/">Go to Home</router-link>
   </div>
 </template>
 
 <script>
-import countService from '../services/countService';
+import data from "../data.json";
 
 export default {
+  name: "home",
+
   data() {
     return {
-      count: countService.value()
-    }
+      data: [],
+      index: 0
+    };
+  },
+  created() {
+    this.data = data;
   }
 };
 </script>
