@@ -28,9 +28,9 @@ data() {
   background-image: url("../assets/image/background.png");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
-
+*/
 h1 {
   position: absolute;
   top: 20%;
