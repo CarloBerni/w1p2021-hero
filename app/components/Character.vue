@@ -7,7 +7,7 @@
     </div>
     <div class="characterbox">
       <li><router-link class="button" to="/game/1">Gladius</router-link></li>
-      <li><router-link class="button" to="/game/1">Flavius</router-link></li>
+      <li><router-link class="button" to="/game/2">Flavius</router-link></li>
     </div>
   </div>
 </template>

@@ -12,13 +12,12 @@
 import game from "../data.json";
 
 export default {
-  
   data: function() {
     return {
       step: this.getStep(),
     };
   },
-
+  
   watch: {
     "$route.params.id"(to, from) {
       this.step = this.getStep();

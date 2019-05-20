@@ -2,29 +2,35 @@
   "steps": [
     {
       "id": 1,
-      "title": "choisissez entre la force et l agilité, votre choix déterminera votre survie dans l arène...alors faites le bon choix..",
+      "title": "Bien, vous vous nommez donc gladius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
       "actions": [
         {
-          "title": "Agilité",
-          "to": 2
-        },
-        {
-          "title": "Force",
-          "to": 2
+          "title": "Continuer",
+          "to": 3
         }
       ]
     },
     {
       "id": 2,
-      "title": "aevcv",
+      "title": "Bien, vous vous nommez donc Flavius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
       "actions": [
         {
-          "title": "sjbvzjkv",
+          "title": "Continuer",
+          "to": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "choisissez entre la force et l agilité, votre choix déterminera votre survie dans l arène...alors faites le bon choix..",
+      "actions": [
+        {
+          "title": "Agilité",
           "to": 3
         },
         {
-          "title": "qss",
-          "to": 2
+          "title": "Force",
+          "to": 3
         }
       ]
     }

@@ -1,8 +1,10 @@
 <template>
   <div class="big-header">
     <h1>{{ message }}</h1>
-    <br />
-    <router-link class="button" to="/character">Jouer</router-link>
+    <br>
+    <li>
+      <router-link class="button" to="/character">Jouer</router-link>
+    </li>
   </div>
 </template>
 
@@ -10,7 +12,7 @@
 export default {
   data() {
     return {
-      message: ''
+      message: ""
     };
   }
 };
@@ -24,6 +26,5 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 </style>
 
