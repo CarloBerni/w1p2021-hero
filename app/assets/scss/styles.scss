@@ -1,11 +1,5 @@
 @import 'reset';
-
-@font-face {
-  font-family: "neula";
-  font-style: normal;
-  src: url('../font/NEULA.ttf') format("truetype");
-}
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 $hetic-green: #0de595;
 
@@ -14,22 +8,19 @@ button,
 input,
 select,
 textarea {
-  font-family: 'neula';
+  font-family: 'Roboto';
 }
-.coucou {
-  margin-left: 30%;
-}
-.home {
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+
+.big-header {
+  background-color: $hetic-green;
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+
   color: white;
 }
 
@@ -41,5 +32,4 @@ textarea {
   border-radius: 5px;
   display: inline-block;
   border: none;
-  cursor: pointer;
 }
