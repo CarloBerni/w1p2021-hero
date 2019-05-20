@@ -2,9 +2,12 @@
   <div class="big-header">
     <h1>{{message}}</h1>
     <br>
+    <div class="imageMec">
+      <img src="../assets/image/mec.png">
+    </div>
     <div class="characterbox">
-      <router-link class="button" to="/game">Gladius</router-link>
-      <router-link class="button" to="/game">Flavius</router-link>
+      <router-link class="button" to="/game/1">Gladius</router-link>
+      <router-link class="button" to="/game/1">Flavius</router-link>
     </div>
   </div>
 </template>
@@ -26,7 +29,7 @@ export default {
 
 <style scoped >
 .big-header {
-  background-image: url("../assets/image/dgfbfdbbv.png");
+  background-image: url("../assets/image/background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,5 +46,11 @@ h1 {
   display: flex;
   width: 600px;
   justify-content: space-between;
+}
+img {
+  position: absolute;
+  left: 50px;
+  top: 30%;
+  height: 600px;
 }
 </style>
