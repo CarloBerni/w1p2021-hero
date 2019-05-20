@@ -4,8 +4,8 @@ URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Maxime Barlet
-- Virgil Caffier
+- Carlo BERNI
+- Lucas CUNAULT
 
 ## Prologue
 
