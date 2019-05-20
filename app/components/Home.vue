@@ -2,9 +2,11 @@
   <div class="big-header">
     <h1>{{ message }}</h1>
     <br>
-    <li>
-      <router-link class="button" to="/character">Jouer</router-link>
-    </li>
+    <ul>
+      <li>
+        <router-link class="button" to="/character">Jouer</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -25,6 +27,11 @@ export default {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.button{
+  position: absolute;
+  bottom: 20px;
+  right: 44%;
 }
 </style>
 

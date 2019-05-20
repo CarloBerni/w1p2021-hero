@@ -6,8 +6,14 @@
       <img src="../assets/image/mec.png">
     </div>
     <div class="characterbox">
-      <li><router-link class="button" to="/game/1">Gladius</router-link></li>
-      <li><router-link class="button" to="/game/2">Flavius</router-link></li>
+      <ul>
+        <li>
+          <router-link class="button" to="/game/1">Gladius</router-link>
+        </li>
+        <li>
+          <router-link class="button" to="/game/2">Flavius</router-link>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -32,14 +38,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
 }
-h1 {
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  color: black;
-  margin-right: 150px;
-  font-size: 30px;
-}
+
 .characterbox {
   display: flex;
   width: 600px;

@@ -26,11 +26,35 @@
       "actions": [
         {
           "title": "Agilité",
-          "to": 3
+          "to": 4
         },
         {
           "title": "Force",
-          "to": 3
+          "to": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vous êtes maintenant fin près à partir dans l arène et à combattre pour votre maître... Je ne peux que vous souhaiter bonne chance et vous dire adieu...",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bienvenue esclave... dépêches-toi, tu es déjà en retard pour ton premier combat, la foule ne va pas attendre bien longtemps. Prends vite une arme et va vite dans l'arène vermine...",
+      "actions": [
+        {
+          "title": "Glaive",
+          "to": 6
+        },
+        {
+          "title": "Lance",
+          "to": 6
         }
       ]
     }

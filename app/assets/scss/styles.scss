@@ -26,24 +26,35 @@ textarea {
   flex-direction: column;
 
 }
-li {
-  list-style: none; 
-  .button {
-    text-decoration: none;
-    background: white;
-    color: black;
-    padding: 30px;
-    font-size: 28px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    margin-top: 800px;
-    &:hover {
-      background: black;
-      color: white;
+
+
+ul{
+  display: flex;
+  li {
+    list-style: none; 
+    .button {
+      text-decoration: none;
+      background-image: url("../image/planche.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      color: black;
+      padding: 60px;
+      font-size: 28px;
+      &:hover {
+        color: white;
+      }
     }
   }
 }
-
-
+  
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: black;
+  margin-right: 30px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 40px;
+}
 
