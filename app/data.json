@@ -1,20 +1,32 @@
 {
-  "character": {
-    "1": {
-      "name": "Gladius"
+  "steps": [
+    {
+      "id": 1,
+      "title": "choisissez entre la force et l agilité, votre choix déterminera votre survie dans l arène...alors faites le bon choix..",
+      "actions": [
+        {
+          "title": "Fille",
+          "to": 2
+        },
+        {
+          "title": "Garçon",
+          "to": 2
+        }
+      ]
     },
-    "2": {
-      "name": "Flavius"
+    {
+      "id": 2,
+      "title": "aevcv",
+      "actions": [
+        {
+          "title": "sjbvzjkv",
+          "to": 3
+        },
+        {
+          "title": "qss",
+          "to": 2
+        }
+      ]
     }
-  },
-  "game": {
-    "1" : {
-      "link" : "/game/1",
-      "text" : "Choisissez la force ou l'agilité, votre choix déterminera votre survie dans l'arène...alors faites le bon choix.."
-    },
-    "2" : {
-      "title" : "TEST2",
-      "link" : "/game/3"
-    }
-  }
-}
+  ]
+ }

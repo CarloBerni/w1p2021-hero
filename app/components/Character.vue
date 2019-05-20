@@ -6,8 +6,8 @@
       <img src="../assets/image/mec.png">
     </div>
     <div class="characterbox">
-      <router-link class="button" to="/game/1">Gladius</router-link>
-      <router-link class="button" to="/game/1">Flavius</router-link>
+      <li><router-link class="button" to="/game/1">Gladius</router-link></li>
+      <li><router-link class="button" to="/game/1">Flavius</router-link></li>
     </div>
   </div>
 </template>
@@ -18,8 +18,6 @@ import data from "../data.json";
 export default {
   data() {
     return {
-      character1: data.character[1],
-      character2: data.character[2],
       message:
         "Pour avancer dans votre aventure, il vous faudra faire des choix qui seront parfois décisifs pour votre survie. Commençons simplement, quel est votre nom ?"
     };
