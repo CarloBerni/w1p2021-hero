@@ -5,11 +5,11 @@
       "title": "choisissez entre la force et l agilité, votre choix déterminera votre survie dans l arène...alors faites le bon choix..",
       "actions": [
         {
-          "title": "Fille",
+          "title": "Agilité",
           "to": 2
         },
         {
-          "title": "Garçon",
+          "title": "Force",
           "to": 2
         }
       ]
