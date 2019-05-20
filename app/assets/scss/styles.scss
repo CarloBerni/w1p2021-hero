@@ -1,18 +1,22 @@
 @import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
-$hetic-green: #0de595;
+@font-face {
+  font-family: "neuland";
+  src: url("../font/NEULA.ttf") format("truetype");
+}
+
+
+
 
 body,
 button,
 input,
 select,
 textarea {
-  font-family: 'Roboto';
+  font-family: 'neuland';
 }
 
 .big-header {
-  background-color: $hetic-green;
   height: 100vh;
 
   display: flex;
@@ -25,11 +29,18 @@ textarea {
 }
 
 .button {
-  color: $hetic-green;
   text-decoration: none;
   background: white;
-  padding: 5px;
+  color: black;
+  padding: 30px;
+  font-size: 28px;
   border-radius: 5px;
   display: inline-block;
   border: none;
+  margin-top: 500px;
+  
+  &:hover {
+    background: black;
+    color: white;
+  }
 }
