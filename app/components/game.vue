@@ -22,7 +22,6 @@ data() {
 };
 </script>
 <style scoped>
-/*
 
 .big-header {
   background-image: url("../assets/image/background.png");
@@ -30,7 +29,7 @@ data() {
   background-size: cover;
   background-repeat: no-repeat;
 }
-*/
+
 h1 {
   position: absolute;
   top: 20%;
