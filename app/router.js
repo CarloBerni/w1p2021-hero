@@ -6,7 +6,6 @@ import Character from './components/Character.vue';
 import Game from './components/Game.vue';
 
 
-
 Vue.use(Router);
 
 const router = new Router({
