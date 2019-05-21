@@ -1,6 +1,7 @@
 <template>
   <div class="big-header">
     <h1>{{step.title}}</h1>
+    <img class="perso" v-bind:src="step.img">
     <ul>
       <li v-for="action in step.actions" v-bind:action="action" v-bind:key="action.title">
         <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
@@ -42,4 +43,11 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.perso {
+  position: absolute;
+  left: 50px;
+  top: 30%;
+  height: 600px;
+}
+
 </style>

@@ -29,16 +29,20 @@ textarea {
 
 
 ul{
-  display: flex;
+    display: flex;
+
   li {
     list-style: none; 
+
     .button {
       text-decoration: none;
       background-image: url("../image/planche.png");
       background-position: center;
       background-repeat: no-repeat;
+      justify-content: space-between;
+      flex-direction: row;
       color: black;
-      padding: 60px;
+      padding: 80px;
       font-size: 28px;
       &:hover {
         color: white;

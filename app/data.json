@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Bien, vous vous nommez donc gladius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
+      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580335940141056000/mec.png",
       "actions": [
         {
           "title": "Continuer",
@@ -13,6 +14,8 @@
     {
       "id": 2,
       "title": "Bien, vous vous nommez donc Flavius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
+      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580335940141056000/mec.png",
+
       "actions": [
         {
           "title": "Continuer",
@@ -37,6 +40,8 @@
     {
       "id": 4,
       "title": "Vous êtes maintenant fin près à partir dans l arène et à combattre pour votre maître... Je ne peux que vous souhaiter bonne chance et vous dire adieu...",
+      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580335940141056000/mec.png",
+
       "actions": [
         {
           "title": "Continuer",
@@ -47,6 +52,7 @@
     {
       "id": 5,
       "title": "Bienvenue esclave... dépêches-toi, tu es déjà en retard pour ton premier combat, la foule ne va pas attendre bien longtemps. Prends vite une arme et va vite dans l'arène vermine...",
+      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580338591344099350/63049c264b50e052853d00322a8767ae-removebg.png",
       "actions": [
         {
           "title": "Glaive",
@@ -64,10 +70,10 @@
       "actions": [
         {
           "title": "Continuer",
-          "to": 7
+          "to": 6
         }
         
-      ]
+      ] 
     }
   ]
  }

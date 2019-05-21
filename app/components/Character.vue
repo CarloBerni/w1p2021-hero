@@ -5,16 +5,14 @@
     <div class="imageMec">
       <img src="../assets/image/mec.png">
     </div>
-    <div class="characterbox">
-      <ul>
-        <li>
-          <router-link class="button" to="/game/1">Gladius</router-link>
-        </li>
-        <li>
-          <router-link class="button" to="/game/2">Flavius</router-link>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li>
+        <router-link class="button" to="/game/1">Gladius</router-link>
+      </li>
+      <li>
+        <router-link class="button" to="/game/2">Flavius</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -39,11 +37,6 @@ export default {
   background-repeat: no-repeat;
 }
 
-.characterbox {
-  display: flex;
-  width: 600px;
-  justify-content: space-between;
-}
 img {
   position: absolute;
   left: 50px;
