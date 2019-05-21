@@ -3,7 +3,8 @@
     {
       "id": 1,
       "title": "Bien, vous vous nommez donc gladius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
-      "img": "./assets/image/mec.png",
+      "img": "../assets/image/mec.png",
+      "background": "../assets/image/background.png",
       "actions": [
         {
           "title": "Continuer",
@@ -14,7 +15,9 @@
     {
       "id": 2,
       "title": "Bien, vous vous nommez donc Flavius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
-      "img": "./assets/image/mec.png",
+      "img": "../assets/image/mec.png",
+      "background": "../assets/image/background.png",
+
       "actions": [
         {
           "title": "Continuer",
@@ -25,23 +28,27 @@
     {
       "id": 3,
       "title": "choisissez entre la force et l agilité, votre choix déterminera votre survie dans l arène...alors faites le bon choix..",
+      "background": "../assets/image/background.png",
+
       "actions": [
         {
           "title": "Agilité",
           "to": 4,
-          "img": "./assets/image/agilite.png"
+          "img": "../assets/image/agilite.png"
         },
         {
           "title": "Force",
           "to": 4,
-          "img": "./assets/image/force.png"
+          "img": "../assets/image/force.png"
         }
       ]
     },
     {
       "id": 4,
       "title": "Vous êtes maintenant fin près à partir dans l arène et à combattre pour votre maître... Je ne peux que vous souhaiter bonne chance et vous dire adieu...",
-      "img": "./assets/image/mec.png",
+      "img": "../assets/image/mec.png",
+      "background": "../assets/image/background.png",
+
 
       "actions": [
         {
@@ -53,7 +60,9 @@
     {
       "id": 5,
       "title": "Bienvenue esclave... dépêches-toi, tu es déjà en retard pour ton premier combat, la foule ne va pas attendre bien longtemps. Prends vite une arme et va vite dans l'arène vermine...",
-      "img": "./assets/image/legros.png",
+      "img": "../assets/image/legros.png",
+      "background": "../assets/image/background.png",
+
       "actions": [
         {
           "title": "Glaive",
@@ -68,7 +77,7 @@
     {
       "id": 6,
       "title": "Vous êtes maintenant dans l’arène pour la première fois. La foule vous attend avec impatience et vous réclame !",
-      "image": "./assets/image/background.png",
+      "background": "../assets/image/combat.png",
       "actions": [
         {
           "title": "Continuer",

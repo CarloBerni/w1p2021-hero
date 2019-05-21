@@ -1,5 +1,5 @@
 <template>
-  <div class="big-header" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
+  <div class="big-header" v-bind:style="{ backgroundImage: 'url(' + step.background + ')' }">
     <h1>{{step.title}}</h1>
     <img class="perso" v-bind:src="step.img">
     <div class="force-agilite"></div>
