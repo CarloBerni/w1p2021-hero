@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Bien, vous vous nommez donc gladius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
-      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580335940141056000/mec.png",
+      "img": "./assets/image/mec.png",
       "actions": [
         {
           "title": "Continuer",
@@ -14,8 +14,7 @@
     {
       "id": 2,
       "title": "Bien, vous vous nommez donc Flavius. Il va maintenant falloir choisir les caractéristiquesde votre esclave. Faites le bon choix ou sinon cela pourrait bien vous coûter la vie..",
-      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580335940141056000/mec.png",
-
+      "img": "./assets/image/mec.png",
       "actions": [
         {
           "title": "Continuer",
@@ -29,18 +28,20 @@
       "actions": [
         {
           "title": "Agilité",
-          "to": 4
+          "to": 4,
+          "img": "./assets/image/agilite.png"
         },
         {
           "title": "Force",
-          "to": 4
+          "to": 4,
+          "img": "./assets/image/force.png"
         }
       ]
     },
     {
       "id": 4,
       "title": "Vous êtes maintenant fin près à partir dans l arène et à combattre pour votre maître... Je ne peux que vous souhaiter bonne chance et vous dire adieu...",
-      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580335940141056000/mec.png",
+      "img": "./assets/image/mec.png",
 
       "actions": [
         {
@@ -52,7 +53,7 @@
     {
       "id": 5,
       "title": "Bienvenue esclave... dépêches-toi, tu es déjà en retard pour ton premier combat, la foule ne va pas attendre bien longtemps. Prends vite une arme et va vite dans l'arène vermine...",
-      "img": "https://cdn.discordapp.com/attachments/501488128041811979/580338591344099350/63049c264b50e052853d00322a8767ae-removebg.png",
+      "img": "./assets/image/legros.png",
       "actions": [
         {
           "title": "Glaive",
@@ -67,6 +68,7 @@
     {
       "id": 6,
       "title": "Vous êtes maintenant dans l’arène pour la première fois. La foule vous attend avec impatience et vous réclame !",
+      "image": "./assets/image/background.png",
       "actions": [
         {
           "title": "Continuer",

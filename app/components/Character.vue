@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style scoped >
+<style lang="scss" scoped >
 .big-header {
   background-image: url("../assets/image/background.png");
   background-position: center;

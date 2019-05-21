@@ -4,8 +4,39 @@ URL du site : https://glad-arena.netlify.com
 
 ### Groupe
 
-- Carlo BERNI
-- Lucas CUNAULT
+- Carlo & BERNI
+- Lucas & CUNAULT
+
+### Grille d'auto-évaluation
+
+| Type  | Objectif | Fait ? | 
+| ----- | -------- | ------ |
+| Setup | Le repository respecte la nomenclature `w1p2021-hero-amsellem-calou`, avec tous les noms des membres, et les membres sont cités dans le README.md | - |
+| Setup | Le site est en ligne, et l'URL est citée dans le README.md | - |
+| Setup | Le site utilise VueJS | - |
+| Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | - |
+| Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | - |
+| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | - |
+| Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | - |
+| Pages | Une page d'accueil est présente | - |
+| Pages | Une page de choix du personnage est présente | - |
+| Pages | Une page de victoire est présente | - |
+| Pages | Une page d'échec est présente | - |
+| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | - |
+| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | - |
+| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
+| Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |
+| État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | - |
+| État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | - |
+| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | - |
+| État | Au moins un service (classe de type `GameService`) est utilisé | - |
+| Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | - |
+| Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | - |
+| Multimédia | L'expérience présente une vidéo ou plus | - |
+| Multimédia | L'expérience présente un audio ou plus | - |
+| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | - |
+| Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | - |
+
 
 ## Prologue
 
@@ -26,14 +57,16 @@ Le projet doit être construit avec le framework [VueJS](https://vuejs.org/).
 ### Lancer le projet
 
 Se mettre dans un terminal dans le répertoire du projet forké, puis :
-* `npm i`
-* `npm run dev`
+
+- `npm i`
+- `npm run dev`
 
 #### Plugins conseillés
 
-- [Vue.js devtools pour Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-- [Vue.js devtools pour Firefox](https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/)
-- [Plugin eslint pour VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Vue.js devtools pour Chrome, inspecteur vue](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- [Vue.js devtools pour Firefox, inspecteur vue](https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/)
+- [Plugin vue pour VSCode, coloration syntaxique](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [Plugin eslint pour VSCode, validation de code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ### Structure des données
 
@@ -107,6 +140,86 @@ Voici un exemple de trame :
 - _Transition du jeu vers le hors-jeu_
   - Page de victoire ou d'échec
 
-## Semaine 2 : À venir
+## Semaine 2 : Gestion d'états et sauvegarde
 
-Proposez vos idées de fonctionnalités pour la semaine 2 et votez pour celles des autres [sur ce sondage collaboratif](https://poll.ly/#/Pw7KgAnK).
+### Gestion d'états
+
+Les décisions prises au cours du jeu doivent avoir des répercussions à d'autres moments de l'aventure. Notez que les exemples donnés sont très basiques et qu'ils ne doivent pas brider votre créativité !
+
+#### 1. Impact du choix du personnage
+
+Le choix du personnage doit impacter au moins une fois l'aventure.
+
+##### Exemples
+
+- J'ai le choix entre un scientifique et un politique. À certains moments, le scientifique dispose de textes supplémentaires pour lui permettre de prendre une décision éclairée. En revanche, les relations du politique lui donnent accès a des chemins qui lui sont exclusifs.
+- Je dois répartir des points de force et d'agilité pour mon personnage. Les points de force influent sur la probabilité de se sortir d'un combat, tandis que les points d'agilité influent sur la probabilité de franchir un précipice sans encombre.
+
+#### 2. Impact des décisions au cours du jeu
+
+Les décisions ou événéments aléatoires au cours du jeu doivent impacter au moins une fois l'aventure.
+
+##### Exemples
+
+- J'ai décidé d'aider un vieil homme à traverser la montagne. Lorsque je le croise à nouveau par la suite, il me remet un précieux artefact.
+- J'ai décidé de camper en fôret, malgré les 30% de chance d'être volé par des brigands pendant la nuit (événément aléatoire). Mon épée a été dérobée, ce qui m'empêchera de forcer une porte massive par la suite.
+
+#### 3. Influences sur l'écran de fin
+
+Les deux parties précédentes doivent influencer l'écran de fin (victoire ou défaite).
+
+##### Exemples
+
+- Sur l'écran de défaite est montré le triste sort du personnage que j'avais sélectionné au début.
+- Sur l'écran de victoire se trouvent des statistiques sur mon parcours : nombre d'étapes parcourues comparé au nombre d'étapes minimum, argent récolté...
+
+#### Comment faire ?
+
+- Pour stocker et lire ces données n'étant ni liées à une route ni à un composant, vous utiliserez un ou plusieurs _services_.
+- Un service est une simple classe JavaScript permettant de stocker et modifier des variables grâce aux méthodes qu'il expose.
+- Par la suite, certains composants feront appel à certains services pour écrire ou lire des données. C'est ainsi qu'elles passent de route en route, et de composant en composant.
+- Votre projet doit contenir au moins un service (exemple: `GameService`).
+- Il vous est possible de découper le code en plusieurs services ayant chacun sa responsabilité (`CharacterService`, `DecisionsService`, `FightService`)...
+
+### Sauvegarde et restauration
+
+Le jeu doit sauvegarder en permanence la partie en cours sur le navigateur de l'utilisateur (pas de sauvegarde back-end). Cela inclut :
+
+- L'étape actuelle
+- Le personnage choisi et/ou ses caractéristiques
+- Les décisions effectuées
+- Tout ce qui est variable !
+
+Autrement dit : la page doit pouvoir être rechargée à tout moment et se restaurer à l'identique.
+
+#### Comment faire ?
+
+- Votre code devra sauvegarder ces informations dans le [localStorage](https://developer.mozilla.org/fr/docs/Web/API/Window/localStorage).
+- Prenez garde à effectuer les sauvegardes dès que quelque chose change : vous ne savez jamais quand votre utilisateur va quitter la session.
+
+## Semaine 3 : Multimédia & rendu final
+
+### Multimédia : vidéo & audio
+
+**Si le temps vous le permet**, il vous est possible de compléter l'aventure à 100% en ajoutant :
+
+- Au moins une vidéo
+- Au moins un audio (exemple : ambiance évolutive en fonction des étapes)
+
+Ces éléments peuvent survenir à n'importe quel moment de l'aventure (introduction, au sein du jeu, à la fin). Vous veillerez à :
+
+- Fournir des fichiers de taille raisonnable
+  - Quelques Mo maximum pour les vidéos
+  - Quelques centaines de Ko maximum pour les audios
+- Permettre à l'utilisateur de couper le son à tout moment
+- Pré-charger les ressources si nécessaire
+
+### Rendu final
+
+Cette grille va vous permettre de pré-évaluer votre travail. Pour chaque ligne, indiquez *Oui*, *Non* ou *En partie*. Plus placez la grille en haut de votre fichier README.md. La non-complétion de la grille entraînera des malus.
+
+Notes :
+- Il ne s'agit pas du barême final, mais d'une checklist vous permettant d'évaluer la conformité de votre travail par rapport au cahier des charges.
+- Si une contrainte semble ne pas s'appliquer à votre situation, posez-nous la question !
+
+

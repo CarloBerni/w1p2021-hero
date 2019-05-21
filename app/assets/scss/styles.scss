@@ -1,38 +1,35 @@
-@import 'reset';
+@import "reset";
 
 @font-face {
   font-family: "neuland";
   src: url("../font/NEULA.ttf") format("truetype");
 }
 
-
-
-
 body,
 button,
 input,
 select,
 textarea {
-  font-family: 'neuland';
+  font-family: "neuland";
 }
 
 .big-header {
   height: 100vh;
-
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-
 }
 
-
-ul{
-    display: flex;
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: 300px;
 
   li {
-    list-style: none; 
+    list-style: none;
 
     .button {
       text-decoration: none;
@@ -50,8 +47,8 @@ ul{
     }
   }
 }
-  
-h1 {
+
+h1 {  
   position: absolute;
   top: 20%;
   left: 30%;
@@ -61,4 +58,3 @@ h1 {
   letter-spacing: 5px;
   line-height: 40px;
 }
-
