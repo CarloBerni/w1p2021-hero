@@ -57,6 +57,17 @@
           "to": 6
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Vous êtes maintenant dans l’arène pour la première fois. La foule vous attend avec impatience et vous réclame !",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": 7
+        }
+        
+      ]
     }
   ]
  }
