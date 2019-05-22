@@ -1,7 +1,6 @@
 # Le site dont vous êtes le héros
 
 URL du site : https://glad-arena.netlify.com
-URL du repo un peu plus stylé : https://carloberni.github.io/w1p2021-hero-BERNI-CUNAULT/
 
 ### Groupe
 
