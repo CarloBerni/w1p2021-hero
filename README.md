@@ -223,6 +223,5 @@ Notes :
 - Si une contrainte semble ne pas s'appliquer à votre situation, posez-nous la question !
 
 
-![Screenshot]("/ressources/figma.jpg)
 
 
