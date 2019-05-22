@@ -11,19 +11,19 @@ URL du site : https://glad-arena.netlify.com
 
 | Type  | Objectif | Fait ? | 
 | ----- | -------- | ------ |
-| Setup | Le repository respecte la nomenclature `w1p2021-hero-amsellem-calou`, avec tous les noms des membres, et les membres sont cités dans le README.md | - |
-| Setup | Le site est en ligne, et l'URL est citée dans le README.md | - |
-| Setup | Le site utilise VueJS | - |
-| Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | - |
+| Setup | Le repository respecte la nomenclature `w1p2021-hero-amsellem-calou`, avec tous les noms des membres, et les membres sont cités dans le README.md | oui |
+| Setup | Le site est en ligne, et l'URL est citée dans le README.md | oui |
+| Setup | Le site utilise VueJS | oui |
+| Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | oui |
 | Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | - |
-| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | - |
-| Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | - |
-| Pages | Une page d'accueil est présente | - |
-| Pages | Une page de choix du personnage est présente | - |
-| Pages | Une page de victoire est présente | - |
-| Pages | Une page d'échec est présente | - |
-| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | - |
-| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | - |
+| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | oui |
+| Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | oui |
+| Pages | Une page d'accueil est présente | oui |
+| Pages | Une page de choix du personnage est présente | oui |
+| Pages | Une page de victoire est présente | oui |
+| Pages | Une page d'échec est présente | oui |
+| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | oui |
+| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | -oui |
 | Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |
 | État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | - |
@@ -35,7 +35,7 @@ URL du site : https://glad-arena.netlify.com
 | Multimédia | L'expérience présente une vidéo ou plus | - |
 | Multimédia | L'expérience présente un audio ou plus | - |
 | Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | - |
-| Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | - |
+| Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | oui |
 
 
 ## Prologue
@@ -221,5 +221,8 @@ Cette grille va vous permettre de pré-évaluer votre travail. Pour chaque ligne
 Notes :
 - Il ne s'agit pas du barême final, mais d'une checklist vous permettant d'évaluer la conformité de votre travail par rapport au cahier des charges.
 - Si une contrainte semble ne pas s'appliquer à votre situation, posez-nous la question !
+
+
+![Screenshot]("/ressources/figma.jpg)
 
 

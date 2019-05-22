@@ -14,7 +14,7 @@
 export default {
   data() {
     return {
-      message: "Vous avez perdu !"
+      message: "Vous avez perdu! Sans aucun doute, vous n'étiez pas digne de votre Maître!"
     };
   }
 };
