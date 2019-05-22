@@ -81,9 +81,67 @@
       "actions": [
         {
           "title": "Continuer",
-          "to": 6
+          "to": 7
         }
         
+      ] 
+    },
+    {
+      "id": 7,
+      "title": "Plusieurs adversaires se trouvent devant vous ! Vous ne pourrez pas les affrontez en même temps. Choisissez un adversaire à attaquer rapidement avant qu'ils ne se rassemblent...",
+      "background": "../assets/image/multifight.png",
+      "actions": [
+        {
+          "title": "Gauche",
+          "to": 7
+        },
+        {
+          "title": "Droite",
+          "to": 8
+        }
+        
+      ] 
+    },
+    {
+      "id": 8,
+      "title": "Votre choix semble vous avoir mis dans une posture compliqué... Vous êtes coincé entre des adversaires redoutable et des tigres affamés. Faites vite un choix ou vous en paierez le prix.",
+      "background": "../assets/image/combatfuire.png",
+      "actions": [
+        {
+          "title": "Fuire",
+          "to": 9
+        },
+        {
+          "title": "Combattre",
+          "to": 10
+        }
+      ] 
+    },
+    {
+      "id": 9,
+      "title": "Votre lâcheté m'a coûté bien trop cher.. Je préfère encore vous revendre, mais sachez que ce sera votre dernière chance.. je vous déconseille d'échouer ou vous serez donné aux lions..",
+      "background": "../assets/image/background.png",
+      "img": "../assets/image/legros.png",
+      "actions": [
+        {
+          "title": "Défaite",
+          "to": "/loose"
+        }
+      ] 
+    },
+    {
+      "id": 10,
+      "title": "Par chance et courage, vous avez survécu à ce combat périlleux ! La foule vous demandera par la suite d achever votre victime ou de la sauver, que choisissez vous ? ",
+      "background": "../assets/image/combatvictoire.png",
+      "actions": [
+        {
+          "title": "Clémence",
+          "to": "/loose"
+        },
+        {
+          "title": "Le tuer",
+          "to": "/win"
+        }
       ] 
     }
   ]
