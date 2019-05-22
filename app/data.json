@@ -221,7 +221,7 @@
     },
     {
       "id": 17,
-      "title": "Votre armure vous a permis d'être aussi agile qu un félin et vous a offert la victoire. Il semblerait que vous ayez aussi gagné un allié durant la bataille. Il pourrait s avérer très utile..",
+      "title": "Votre tactique vous a permis d'être aussi agile qu un félin et vous a offert la victoire. Il semblerait que vous ayez aussi gagné un allié durant la bataille. Il pourrait s avérer très utile..",
       "background": "../assets/image/combatvictoire.png",
       "actions": [
         {
