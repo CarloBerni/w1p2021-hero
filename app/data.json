@@ -244,7 +244,7 @@
     },
     {
       "id": 19,
-      "title": "Tu es dans une situation délicate! des tigres sont derriere toi ainsi que des gladiateurs devant... Que fais tu !!! tu attaques les gladiateurs ou tu prends ton courage et tu t'occupes des tigres ?",
+      "title": "Le combat commence et tu es dans une situation délicate! des tigres sont derriere toi ainsi que des gladiateurs devant... Que fais tu !!! tu attaques les gladiateurs ou tu prends ton courage et tu t'occupes des tigres ?",
       "background": "../assets/image/combatfuire.png",
       "actions": [
         {
