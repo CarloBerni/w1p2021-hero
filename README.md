@@ -31,7 +31,7 @@ Notes :
 | Pages | Une page de victoire est présente | oui |
 | Pages | Une page d'échec est présente | oui |
 | Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | oui |
-| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | -oui |
+| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | oui |
 | Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |
 | État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | - |

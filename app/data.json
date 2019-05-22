@@ -93,7 +93,7 @@
       "actions": [
         {
           "title": "Gauche",
-          "to": 7
+          "to": 11
         },
         {
           "title": "Droite",
@@ -119,7 +119,7 @@
     },
     {
       "id": 9,
-      "title": "Votre lâcheté m'a coûté bien trop cher.. Je préfère encore vous revendre, mais sachez que ce sera votre dernière chance.. je vous déconseille d'échouer ou vous serez donné aux lions..",
+      "title": "Votre lâcheté m a coûté bien trop cher.. Je préfère encore vous revendre, mais sachez que ce sera votre dernière chance.. je vous déconseille d'échouer ou vous serez donné aux lions..",
       "background": "../assets/image/background.png",
       "img": "../assets/image/legros.png",
       "actions": [
@@ -141,6 +141,141 @@
         {
           "title": "Le tuer",
           "to": "/win"
+        }
+      ] 
+    },
+    {
+      "id": 11,
+      "title": "Votre maîtrise du combat et du maniement de l'arme vous menent à la victoire. Votre adversaire est a vos pieds.. La foule vous demande de l éxecuter! Mais vous, que choisissez vous ?",
+      "background": "../assets/image/combatvictoire.png",
+      "actions": [
+        {
+          "title": "Epargner",
+          "to": 18
+        },
+        {
+          "title": "Executer",
+          "to": 12
+        } 
+      ] 
+    },
+    {
+      "id": 12,
+      "title": "Maintenant Tout le monde sait que votre cruauté est sans pareil.. La pitié ne fait pas partie de vos points fort. Mais était ce le bon choix..",
+      "background": "../assets/image/mort.png",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": 13
+        }
+      ] 
+    },
+    {
+      "id": 13,
+      "title": "Il semble que votre cruauté n'ait pas été apprécié par tout le monde. Des hommes semblent vouloir vous assassiner... Ne vous fiez à personne et évitez de dormir trop profondément...",
+      "background": "../assets/image/assassin.png",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": 14
+        }
+      ] 
+    },
+    {
+      "id": 14,
+      "title": "Esclave ! Dépêche toi ton combat t'attend. Fais attention, j'ai l impression que quelque chose se prépare, alors reste sur tes gardes et ne te fie à personnes...",
+      "background": "../assets/image/background.png",
+      "img": "../assets/image/legros.png",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": 15
+        }
+      ] 
+    },
+    {
+      "id": 15,
+      "title": "Vous êtes dans une mauvaise posture mais cependant vous apercevez un gladiateur vous faisant un signe pour vous aider. Vous ne le connaissez pas mais il est peut-être votre unique chance face aux gladiateurs devant vous...",
+      "background": "../assets/image/combatfuire.png",
+      "actions": [
+        {
+          "title": "Alliance",
+          "to": 17
+        },
+        {
+          "title": "Combattre",
+          "to": 16
+        }
+      ] 
+    },
+    {
+      "id": 16,
+      "title": "Combattre n'était pas la meilleur solution.. Votre méfiance a créé votre perte et a fini par vous tuer! ",
+      "background": "../assets/image/mort.png",
+      "actions": [
+        {
+          "title": "Suite",
+          "to": "/loose"
+        }
+      ] 
+    },
+    {
+      "id": 17,
+      "title": "Votre armure vous a permis d'être aussi agile qu un félin et vous a offert la victoire. Il semblerait que vous ayez aussi gagné un allié durant la bataille. Il pourrait s avérer très utile..",
+      "background": "../assets/image/combatvictoire.png",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": "/win"
+        }
+      ] 
+    },
+    {
+      "id": 18,
+      "title": "Bravo jeune esclave. Ta maîtrise du combat n a d égal que ta clémence envers tes adversaires. Vas te reposer maintenant, un autre combat t attend demain.",
+      "background": "../assets/image/background.png",
+      "img": "../assets/image/legros.png",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": 19
+        }
+      ] 
+    },
+    {
+      "id": 19,
+      "title": "Tu es dans une situation délicate! des tigres sont derriere toi ainsi que des gladiateurs devant... Que fais tu !!! tu attaques les gladiateurs ou tu prends ton courage et tu t'occupes des tigres ?",
+      "background": "../assets/image/combatfuire.png",
+      "actions": [
+        {
+          "title": "Gladiatieurs",
+          "to": 20
+        },
+        {
+          "title": "Tigres",
+          "to": 21
+        }
+      ] 
+    },
+    {
+      "id": 20,
+      "title": "Les gladiateurs sont forts mais tu résistes bien! Un tigre te fait un croc en patte, tandis qu un gladiateur te transperce de sa lance!!!!",
+      "background": "../assets/image/combatdroite.png",
+      "actions": [
+        {
+          "title": "Suivant",
+          "to": "/loose"
+        }
+      ] 
+    },
+    {
+      "id": 21,
+      "title": "Tu as trop suréstimé ta force et malheuresement les tigres sont beaucoup trop nombreux....",
+      "background": "../assets/image/tigre.png",
+      "actions": [
+        {
+          "title": "Suivant",
+          "to": "/loose"
         }
       ] 
     }
