@@ -7,6 +7,14 @@ URL du site : https://glad-arena.netlify.com
 - Carlo & BERNI
 - Lucas & CUNAULT
 
+### Rendu final
+
+Cette grille va vous permettre de pré-évaluer votre travail. Pour chaque ligne, indiquez *Oui*, *Non* ou *En partie*. Plus placez la grille en haut de votre fichier README.md. La non-complétion de la grille entraînera des malus.
+
+Notes :
+- Il ne s'agit pas du barême final, mais d'une checklist vous permettant d'évaluer la conformité de votre travail par rapport au cahier des charges.
+- Si une contrainte semble ne pas s'appliquer à votre situation, posez-nous la question !
+
 ### Grille d'auto-évaluation
 
 | Type  | Objectif | Fait ? | 
@@ -15,7 +23,7 @@ URL du site : https://glad-arena.netlify.com
 | Setup | Le site est en ligne, et l'URL est citée dans le README.md | oui |
 | Setup | Le site utilise VueJS | oui |
 | Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | oui |
-| Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | - |
+| Données | Un schéma numérique ou papier (scanné ou photographié) décrivant les différentes étapes et enchaînements possible. Affiché dans ce readme (si plusieurs images sont nécessaires, en afficher plusieurs, mais essayer d'être synthétique). | oui |
 | Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | oui |
 | Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | oui |
 | Pages | Une page d'accueil est présente | oui |
@@ -214,13 +222,7 @@ Ces éléments peuvent survenir à n'importe quel moment de l'aventure (introduc
 - Permettre à l'utilisateur de couper le son à tout moment
 - Pré-charger les ressources si nécessaire
 
-### Rendu final
 
-Cette grille va vous permettre de pré-évaluer votre travail. Pour chaque ligne, indiquez *Oui*, *Non* ou *En partie*. Plus placez la grille en haut de votre fichier README.md. La non-complétion de la grille entraînera des malus.
-
-Notes :
-- Il ne s'agit pas du barême final, mais d'une checklist vous permettant d'évaluer la conformité de votre travail par rapport au cahier des charges.
-- Si une contrainte semble ne pas s'appliquer à votre situation, posez-nous la question !
 
 
 ![maquette figma](https://cdn.discordapp.com/attachments/501488128041811979/580760943043280926/figma.jpg)
