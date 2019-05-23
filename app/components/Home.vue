@@ -1,5 +1,8 @@
 <template>
   <div class="big-header">
+    <audio autoplay loop>
+      <source src="../assets/sound/songhome.mp3">
+    </audio>
     <h1>{{ message }}</h1>
     <br>
     <ul>
@@ -28,7 +31,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.button{
+.button {
   position: absolute;
   bottom: 20px;
   right: 44%;
