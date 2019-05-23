@@ -46,6 +46,10 @@ Notes :
 | Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | oui |
 
 
+![maquette figma](https://cdn.discordapp.com/attachments/501488128041811979/580760943043280926/figma.jpg)
+
+
+
 ## Prologue
 
 - Voici le cahier des charges que doit respecter **au minimum** le projet.
@@ -225,5 +229,4 @@ Ces éléments peuvent survenir à n'importe quel moment de l'aventure (introduc
 
 
 
-![maquette figma](https://cdn.discordapp.com/attachments/501488128041811979/580760943043280926/figma.jpg)
 
