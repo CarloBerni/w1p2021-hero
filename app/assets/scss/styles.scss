@@ -1,6 +1,5 @@
 @import "reset";
 
-
 @font-face {
   font-family: "neuland";
   src: url("../font/NEULA.ttf") format("truetype");
@@ -16,7 +15,7 @@ textarea {
 .pane-leave-active,
 .pane-enter-active {
   &::after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -24,7 +23,10 @@ textarea {
     right: 0;
     bottom: 0;
     transform: translateX(100vw);
-    background: black;
+    background-image: url('../image/epee.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     z-index: 1;
   }
 }
@@ -95,7 +97,7 @@ ul {
   }
 }
 
-h1 {  
+h1 {
   position: absolute;
   top: 20%;
   left: 30%;
