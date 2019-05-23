@@ -32,17 +32,17 @@ Notes :
 | Pages | Une page d'échec est présente | oui |
 | Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | oui |
 | Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | oui |
-| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
-| Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |
-| État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | - |
-| État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | - |
-| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | - |
-| État | Au moins un service (classe de type `GameService`) est utilisé | - |
+| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | oui |
+| Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | non |
+| État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | non |
+| État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | non |
+| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | non |
+| État | Au moins un service (classe de type `GameService`) est utilisé | non |
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | - |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | - |
-| Multimédia | L'expérience présente une vidéo ou plus | - |
-| Multimédia | L'expérience présente un audio ou plus | - |
-| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | - |
+| Multimédia | L'expérience présente une vidéo ou plus | non |
+| Multimédia | L'expérience présente un audio ou plus | non |
+| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | non |
 | Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | oui |
 
 

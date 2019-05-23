@@ -13,6 +13,52 @@ select,
 textarea {
   font-family: "neuland";
 }
+.pane-leave-active,
+.pane-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    background: black;
+    z-index: 1;
+  }
+}
+
+.pane-leave-active {
+  animation: fake 1s;
+
+  &::after {
+    animation: slideLeave 1s;
+  }
+}
+
+.pane-enter-active {
+  animation: fake 2s;
+
+  &::after {
+    animation: slideEnter 1s ease 1s;
+  }
+}
+
+@keyframes slideLeave {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideEnter {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
 
 .big-header {
   height: 100vh;
