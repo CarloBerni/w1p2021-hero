@@ -10,7 +10,7 @@
     
   <div id="root">
     <transition name="pane">
-      <router-view />
+      <router-view :key="$route.name + ($route.params.id || '')"></router-view>
     </transition>
   </div>
     <script src="./app.js"></script>
