@@ -40,7 +40,7 @@ Notes :
 | État | Au moins un service (classe de type `GameService`) est utilisé | non |
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | non |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | non |
-| Multimédia | L'expérience présente une vidéo ou plus | non |
+| Multimédia | L'expérience présente une vidéo ou plus | oui |
 | Multimédia | L'expérience présente un audio ou plus | oui |
 | Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | non |
 | Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | oui |
