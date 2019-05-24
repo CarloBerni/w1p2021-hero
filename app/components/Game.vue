@@ -57,7 +57,7 @@ export default {
 ul {
   display: flex;
   img {
-    height: 500px;
+    height: 400px;
   }
 }
 
