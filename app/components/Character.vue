@@ -2,6 +2,9 @@
   <div class="big-header">
     <h1>{{message}}</h1>
     <br>
+    <audio autoplay>
+      <source src="../assets/sound/coup-depee.mp3">
+    </audio>
     <div class="imageMec">
       <img src="../assets/image/mec.png">
     </div>
