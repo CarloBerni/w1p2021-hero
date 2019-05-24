@@ -1,6 +1,9 @@
 <template>
   <div class="big-header" v-bind:style="{ backgroundImage: 'url(' + step.background + ')' }">
     <h1 v-if="$route.params.id">{{step.title}}</h1>
+    <audio autoplay>
+      <source src="../assets/sound/coup-depee.mp3">
+    </audio>
     <img class="perso" v-bind:src="step.img">
     <div class="force-agilite"></div>
     <ul>
